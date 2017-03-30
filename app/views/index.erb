@@ -1,0 +1,70 @@
+<div class="locations container" ng-controller="travelDestinationsController">
+	<div class="row">
+		<div class="col-md-4 location" ng-click="onColoradoClick()">
+			<img class="image" src="images/colorado.jpg" alt="colorado" ng-show="showColoradoImage">
+			<section ng-hide="showColoradoImage">
+				<p style="text-align:center">
+					Current Temperature: {{coloradoData.currentTemperature}}°F</p>
+				<p style="text-align:center">{{coloradoData.summary}}</p>
+			</section>
+			<h3 class="city">Colorado</h3>		
+		</div>
+
+		<div class="col-md-4 location" ng-click="onGreeceClick()">
+			<img class="image" src="images/greece.jpg" alt="greece" ng-show="showGreeceImage">
+			<section ng-hide="showGreeceImage">
+				<p style="text-align:center">
+					Current Temperature: {{greeceData.currentTemperature}}°F</p>
+				<p style="text-align:center">{{greeceData.summary}}</p>
+			</section>
+			<h3 class="city">Greece</h3>		
+		</div>
+
+		<div class="col-md-4 location" ng-click="onIrelandClick()">
+			<img class="image" src="images/ireland.jpg" alt="ireland" ng-show="showIrelandImage">
+			<section ng-hide="showIrelandImage">
+				<p style="text-align:center">
+					Current Temperature: {{irelandData.currentTemperature}}°F</p>
+				<p style="text-align:center">{{irelandData.summary}}</p>
+			</section>
+			<h3 class="city">Ireland</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 location" ng-click="onMexicoClick()">
+			<img class="image" src="images/mexico.jpg" alt="mexico"
+			ng-show="showMexicoImage">
+			<section ng-hide="showMexicoImage">
+				<p style="text-align:center">
+					Current Temperature: {{mexicoData.currentTemperature}}°F</p>
+				<p style="text-align:center">{{mexicoData.summary}}</p>
+			</section>
+			<h3 class="city">Mexico</h3>
+		</div>
+
+		<div class="col-md-4 location" ng-click="onMichiganClick()">
+			<img class="image" src="images/michigan.jpg" alt="alma" ng-show="showMichiganImage">
+			<section ng-hide="showMichiganImage">
+				<p style="text-align:center">
+					Current Temperature: {{michiganData.currentTemperature}}°F</p>
+				<p style="text-align:center">{{michiganData.summary}}</p>
+			</section>
+			<h3 class="city">Michigan</h3>
+		</div>
+
+		<div class="col-md-4 location" ng-click="onNewYorkClick()">
+			<img class="image" src="images/new_york.jpg" alt="new-york" ng-show="showNewYorkImage">
+			<section ng-hide="showNewYorkImage">
+				<p style="text-align:center">
+					Current Temperature: {{newYorkData.currentTemperature}}°F</p>
+				<p style="text-align:center">{{newYorkData.summary}}</p>
+			</section>
+			<h3 class="city">New York City</h3>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<a href="https://darksky.net/poweredby/">Powered by Dark Sky</a>
+</footer>
+
