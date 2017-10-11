@@ -1,4 +1,4 @@
-# Angular 2017 Travel Destinations
+# AngularJS - My 2017 Travel Destinations
 
 ## Project Objectives
 
