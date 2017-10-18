@@ -4,7 +4,6 @@
 
 * Learn and utilize AngularJS
 * Consume a third party API (Dark Sky)
-* Deploy the app to Heroku
 
 ## Summary
 
@@ -21,7 +20,6 @@ The Dark Sky API allows users to look up the weather anywhere on the globe, with
 
 * Implement animated weather icons
 * Transfer code to an AngularJS application skeleton
-* Deploy the app to Heroku
 
 ## Resources
 
